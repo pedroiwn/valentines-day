@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  body{
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  
+    background-color: violet;
+  }
+  
+  .container{
+    width: 90%;
+    height: 90%;
+    position: relative;
+  }
+  
+  /* Texto */
+  
+  h1{
+    font-size: 50px;
+    color: white;
+  
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  p{
+    position: fixed;
+    color: white;
+    margin: 10px;
+  
+    bottom: 0%;
+    right: 0%;
+  }
+  
+  /* Botões */
+  
+  button{
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: blueviolet;
+  }
+  
+  button:not(#no-button){
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+  }
+  
+  #no-button{
+    position: relative;
+    background-color: red;
+    
+    top: 63%;
+    left: 50%;
+  
+    transform: translate(-50%,-50%);
+  }
+  
+  /* Coração */
+  
+  img{
+    display: none;
+    position: fixed;
+    width: 400px;
+    height: 400px;
+  
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
